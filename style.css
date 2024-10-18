@@ -1,0 +1,305 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);*/
+}
+
+#allround {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles .title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: absolute;
+    top: 0px;
+    width: 1500px;
+    height: 800px;
+}
+
+.imgb{
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+button:hover {
+    color:black;
+    background-color: white;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+#Title {
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#by {
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.NucleasBtn {
+    position: relative;
+    bottom: 370px;
+    left: 650px;
+}
+
+.NucleasBtn .pop-upNB {
+    outline-color: transparent;
+    background-color: wheat;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-400px, -250px);
+}
+
+.NucleasBtn .pop-upNB h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.NucleasBtn .pop-upNB hr {
+    background-color: black;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.NucleasBtn .pop-upNB p {
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+.MitochonBtn {
+    position: relative;
+    bottom: 700px;
+    left: 920px;
+}
+
+.MitochonBtn .pop-upMB {
+    width: 400px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(30px, -30px);
+}
+
+.MitochonBtn .pop-upMB h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.MitochonBtn .pop-upMB hr {
+    height: 2px;
+    background-color: black;
+    outline-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.MitochonBtn .pop-upMB p {
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+.ChloroBtn {
+    position: relative;
+    bottom: 800px;
+    left: 600px;
+}
+
+.ChloroBtn .pop-upCB {
+    width: 400px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-400px, -20px);
+}
+
+.ChloroBtn .pop-upCB h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.ChloroBtn .pop-upCB hr {
+    height: 2px;
+    background-color: black;
+    outline-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.ChloroBtn .pop-upCB p {
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+.VacuoleBtn {
+    z-index: 1;
+    position: relative;
+    bottom: 1000px;
+    left: 700px;
+}
+
+.VacuoleBtn .pop-upVB {
+    width: 400px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(30px, -20px);
+}
+
+.VacuoleBtn .pop-upVB h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.VacuoleBtn .pop-upVB hr {
+    height: 2px;
+    background-color: black;
+    outline-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.VacuoleBtn .pop-upVB p {
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+.CytosolBtn {
+    position: relative;
+    bottom: 1070px;
+    left: 650px;
+    z-index: 1;
+}
+
+.CytosolBtn .pop-upCYB {
+    width: 400px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-400px, -20px);
+}
+
+.CytosolBtn .pop-upCYB h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.CytosolBtn .pop-upCYB hr {
+    height: 2px;
+    background-color: black;
+    outline-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.CytosolBtn .pop-upCYB p {
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+.CellMemBtn {
+    position: relative; 
+    bottom: 1730px;
+    left: 970px;
+}
+
+.CellMemBtn .pop-upCMB {
+    outline-color: transparent;
+    background-color: wheat;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(30px, -250px);
+}
+
+.CellMemBtn .pop-upCMB h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.CellMemBtn .pop-upCMB hr {
+    background-color: black;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.CellMemBtn .pop-upCMB p {
+    margin-left: 3px;
+    margin-top: 0px;
+}
